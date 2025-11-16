@@ -1,0 +1,14 @@
+{
+    "css.lint.unknownAtRules": "ignore",
+    "stylelint.enable":false,
+    "css.validate": false,
+    "cSpell.words": [
+        "Bhimavaram",
+        "Chini",
+        "Kamakshi",
+        "Kamakshi’s",
+        "Matplotlib",
+        "osteopenia",
+        "profilepic"
+    ],
+}
