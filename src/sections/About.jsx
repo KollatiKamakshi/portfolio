@@ -11,7 +11,7 @@ function About() {
         {/* Profile Picture */}
         <Reveal className="text-center mb-6">
           <img
-            src="/profilepic.jpg"   // Replace with your image path
+            src="/kk_profilepic.png"   // Replace with your image path
             alt="Kamakshi"
             className="mx-auto w-56 h-56 sm:w-48 sm:h-48 rounded-full object-cover border-4 border-themeAccent shadow-lg transform transition duration-700 hover:scale-105"
           />

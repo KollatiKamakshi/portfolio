@@ -20,8 +20,9 @@ function Navbar() {
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <h1 className="text-2xl font-bold" style={{ color: "var(--theme-accent)" }}>
-          💻 Kamakshi’s Portfolio
+          💻 <span style={{ fontFamily: 'Playfair Display' }}>Kamakshi</span>’s’s Portfolio
         </h1>
+        
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8">

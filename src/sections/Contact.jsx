@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen py-28 px-6"
+      className="py-56 px-6"
       style={{ background: "var(--theme-bg)", color: "var(--theme-text)" }}
     >
       <div className="max-w-6xl mx-auto">

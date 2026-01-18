@@ -30,7 +30,7 @@ function Home() {
           transition={{ delay: 1, duration: 1 }}
         >
           <Typewriter
-            words={["A Front-End Web Developer", "A React Enthusiast", "Lifelong Learner"]}
+            words={["A Front-End Web Developer", "A React Enthusiast", "Machine Learning Engineer","Lifelong Learner"]}
             loop
             cursor
             cursorStyle="|"
@@ -53,6 +53,7 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Open Resume"
+            title="Resume"
             className="text-gray-700 dark:text-gray-200 hover:text-themeAccent transform hover:scale-110 transition duration-300 focus:outline-none focus:ring-2 focus:ring-themeAccent rounded"
           >
             <FaFilePdf size={20} />
@@ -62,6 +63,7 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit GitHub profile"
+            title="GitHub"
             className="text-gray-700 dark:text-gray-200 hover:text-themeAccent transform hover:scale-110 transition duration-300 focus:outline-none focus:ring-2 focus:ring-themeAccent rounded"
           >
             <FaGithub size={20} />
@@ -71,6 +73,7 @@ function Home() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Visit LinkedIn profile"
+            title="LinkedIn"
             className="text-gray-700 dark:text-gray-200 hover:text-themeAccent transform hover:scale-110 transition duration-300 focus:outline-none focus:ring-2 focus:ring-themeAccent rounded"
           >
             <FaLinkedin size={20} />
@@ -81,7 +84,15 @@ function Home() {
         <motion.a
           href="#projects"
           aria-label="Scroll to Projects section"
-          className="inline-block text-gray-400 px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition duration-300 mt-8"
+          title="Visit Projects"
+          className="inline-block px-6 py-3 rounded-full font-medium transition duration-300 mt-8"
+          style={{ backgroundColor: "var(--theme-card)", color: "var(--theme-text)",}}
+          onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = "var(--theme-accent)";
+            e.currentTarget.style.color = "var(--theme-bg)";
+          }}
+          onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = "var(--theme-card)";
+            e.currentTarget.style.color = "var(--theme-text)";
+          }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.5, duration: 0.8 }}
