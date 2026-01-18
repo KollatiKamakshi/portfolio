@@ -32,7 +32,7 @@ const projects = [
     title: "Smart-Travel",
     description: "",
     tech: ["Next.js", "Tailwind CSS"],
-    liveUrl: "https://smart-travel-kamakshi.vercel.app/",
+    liveUrl:"https://smart-travel-itinerary.vercel.app/",
     githubUrl: "https://github.com/KollatiKamakshi/smart-travel-itinerary",
   },
   {
